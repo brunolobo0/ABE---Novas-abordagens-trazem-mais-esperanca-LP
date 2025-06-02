@@ -1,0 +1,13 @@
+.header-container {
+  background-color: #8945fc;
+}
+
+.header-container header {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo-header {
+  max-width: 220px;
+  padding: 10px 0;
+}

@@ -1,0 +1,36 @@
+footer {
+  background-color: #401a74;
+  padding: 20px 0;
+}
+
+.icones-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.logo-abe-footer {
+  max-width: 200px;
+  height: auto;
+}
+
+.redes-sociais {
+  display: flex;
+  gap: 12px;
+}
+
+.redes-sociais img {
+  width: 34px;
+  height: 34px;
+}
+
+footer span {
+  color: #fff;
+  text-align: center;
+  display: block;
+  margin-top: 15px;
+  font-size: 14px;
+}

@@ -1,0 +1,27 @@
+.resistencia-aos-medicamentos {
+  background-color: #f1f1f1;
+}
+
+.container-resistencia-aos-medicamentos {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.texto-sobre-resistencia span {
+  background-color: #8945fc;
+  padding: 2px 30px;
+  border-radius: 12px;
+  color: #fff;
+}
+
+.texto-sobre-resistencia h2 {
+  padding: 30px 0;
+}
+
+.texto-sobre-resistencia p {
+  padding: 10px 0;
+}

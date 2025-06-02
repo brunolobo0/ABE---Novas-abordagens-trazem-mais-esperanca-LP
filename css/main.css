@@ -1,0 +1,52 @@
+.container-main-lp {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/ABE---Novas-abordagens-trazem-mais-esperanca-LP/assets/images/fundo-main.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-lp {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.main-lp .span-main {
+  display: block;
+  width: 120px;
+  color: #fff;
+  background-color: #8945fc;
+  padding: 5px 10px;
+  font-weight: 600;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+
+.main-lp h1 {
+  text-align: center;
+  max-width: 21ch;
+  margin: 0 auto;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.detalhe-ponto {
+  color: #8945fc !important;
+  font-size: 54px;
+}
+
+.main-lp p {
+  font-style: italic;
+}
+
+.main-lp span,
+.main-lp p {
+  text-align: center;
+  max-width: 60ch;
+  margin: 0 auto;
+  color: #fff;
+}

@@ -1,0 +1,80 @@
+.container-evolucao-tratamento {
+  max-width: 1200px;
+  padding: 80px 0;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.icone-grafico {
+  position: relative;
+  align-self: center;
+  text-align: left !important;
+  z-index: 0;
+}
+
+.icone-grafico h2 {
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 4rem;
+}
+
+.tratamento-h2 {
+  all: unset;
+  color: #8945fc;
+}
+
+.icone-grafico::before {
+  content: "";
+  display: block;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url("../ABE---Novas-abordagens-trazem-mais-esperanca-LP/assets/icons/icon-graphic.png")
+      no-repeat center;
+  position: absolute;
+  top: -80px;
+  left: -200px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.container-evolucao-tratamento div:first-child {
+  background-color: transparent;
+  border-bottom: none;
+  border-radius: none;
+}
+
+.container-evolucao-tratamento div:nth-child(2) {
+  border-bottom: none;
+  border-top: 8px solid #8945fc;
+  padding: 40px;
+  text-align: left;
+}
+.container-evolucao-tratamento div:nth-child(2) p:first-child {
+  padding-bottom: 20px;
+}
+
+.container-evolucao-tratamento div {
+  background-color: #401a74;
+  border-bottom: 8px solid #8945fc;
+  border-radius: 8px;
+  justify-items: center;
+  color: #fff;
+  text-align: center;
+  padding: 20px 30px;
+}
+
+.container-evolucao-tratamento div img {
+  max-width: 86px;
+}
+
+.container-evolucao-tratamento div h5 {
+  padding: 20px 0;
+  font-size: 22px;
+}
