@@ -1,6 +1,6 @@
 .container-main-lp {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("/ABE---Novas-abordagens-trazem-mais-esperanca-LP/assets/images/fundo-main.jpg");
+    url("../assets/images/fundo-main.jpg");
   background-size: cover;
   background-position: center;
   height: 500px;
